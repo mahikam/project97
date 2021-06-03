@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>WAST3LESS</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap" rel="stylesheet">
+    
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="cchat.js"></script>
+    </head>
+</html>
+<body>
+    <center>
+        <nav class="navbar-inverse cchat_nav_bar">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">WAST3LESS: Consumer Chat Room</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+            </div>
+        </nav>
+        <div class="container">
+            <button id="logout" class="glyphicon glyphicon-log-out btn btn-danger" onclick="logout()">Logout</button>
+            <br>
+            <br>
+            <br>
+            <center>
+                <div style="text-align: left;margin-bottom: 70px;" id="output"> </div>
+            </center>
+        </div>
+
+        <div class="input_div_message_page">
+                <label>Send:</label>
+                <input type="text" id="msg" placeholder="If you are a consumer type the amount of people you need to feed here, when a volunteer texts you leave an address of where you need to have the food delivered.  If you are a volunteer text the phone number by a consumer's name to get their address." class="form-control">
+                <button class="btn btn-success" id="send" onclick="send()">Send</button>
+        </div>
+    </center>
+</body>

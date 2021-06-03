@@ -1,0 +1,118 @@
+body{
+    background-color: #77A28A;
+}
+#output
+{
+	padding: 10px; width:80%;
+	background: linear-gradient(to top left, #32638f, #b7d9f7);
+	border-radius: 15px;
+}
+#send{
+	margin-bottom: 5px;
+}
+.index_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#abt_para{
+    font-family: 'Big Shoulders Display', cursive;
+}
+#h3{
+    margin-top: 50px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+#button_1{
+    margin-top: 50px;
+}
+#button_2{
+    margin-top: 50px;
+}
+#button_3{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#btn1{
+    height: 50px;
+    border-radius: 30px;
+}
+#btn2{
+    height: 50px;
+    border-radius: 30px;
+}
+#btn3{
+    height: 50px;
+    border-radius: 30px;
+}
+
+.plogin_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#provider_inputs{
+    margin-top: 50px;
+}
+#p_cont{
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+.vlogin_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#volunteer_inputs{
+    margin-top: 50px;
+}
+#v_cont{
+    height: 50px;
+    border-radius: 30px;
+}
+
+
+
+.clogin_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#consumer_inputs{
+    margin-top: 50px;
+}
+#c_cont{
+    height: 50px;
+    border-radius: 30px;
+}
+
+.vroom_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+#room_name{
+    margin-top: 25px;
+}
+#room_label{
+    margin-top: 30px;
+}
+
+.pchat_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.cchat_nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+	margin-top: 15px;
+}
